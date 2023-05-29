@@ -40,5 +40,5 @@ public:
 	~pelajar() {
 		cout << "Pelajar dihapus\n" << endl;
 	}
-
+	string perkelanalan()
 };
