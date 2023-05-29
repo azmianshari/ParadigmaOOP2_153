@@ -41,6 +41,12 @@ public:
 		cout << "Pelajar dihapus\n" << endl;
 	}
 	string perkelanalan() {
-		return "Hallo, nama saya " + nama + "dengan jenis kelamin " + jenisKelamin;
+		return "Hallo, nama saya " + nama + "dengan jenis kelamin " + jenisKelamin + "dari sekolah " + sekolah;
 	}
 };
+
+int main() {
+	pelajar andi("Andi laksono", "Laki-laki", "Belajarcpp");
+	cout << andi.perkelanalan();
+	return 0;
+}
