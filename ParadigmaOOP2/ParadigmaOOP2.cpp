@@ -15,6 +15,3 @@ public:
 };
 
 class manusia {
-public:
-	string jenisKelamin;
-};
