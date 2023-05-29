@@ -26,3 +26,5 @@ public:
 		cout << "Pelajar dibuat\n" << endl;
 	}
 };
+
+class budi : public pekerja, public pelajar {};
