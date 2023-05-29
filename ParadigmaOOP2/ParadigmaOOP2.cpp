@@ -22,7 +22,5 @@ public:
 		jenisKelamin(pJenisKelamin) {
 		cout << "Manusia dibuat\n" << endl;
 	}
-	~manusia() {
-		cout << "Manusia dihapus\n" << endl;
-	}
+	
 };
